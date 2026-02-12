@@ -1,0 +1,19 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\MONSTER\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "python.analysis.extraPaths": [
+        "C:\\Users\\MONSTER\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "off",
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": false,
+    "basedpyright.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticMode": "off",
+    "python.analysis.stubPath": "",
+    "python.analysis.ignore": [
+        "**/node_modules",
+        "**/__pycache__"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}

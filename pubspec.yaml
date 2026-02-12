@@ -1,0 +1,54 @@
+name: smart_gallery_app
+description: "Akıllı Galeri - Google ML Kit ile Görsel Arama"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Temel bileşenler
+  cupertino_icons: ^1.0.8
+  
+  # Galeri erişimi
+  photo_manager: ^3.0.0
+  
+  # İzin yönetimi
+  permission_handler: ^11.3.0
+  
+  # Dosya seçici
+  file_picker: ^8.0.0
+  
+  # Kamera/Fotoğraf çekme
+  image_picker: ^1.1.2
+  
+  # Path işlemleri
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  
+  # Tarih formatlama
+  intl: ^0.20.2
+
+  # Image processing (fotoğraf küçültme için)
+  image: ^4.1.7
+
+  # SQLite - Database
+  sqflite: ^2.3.0
+
+  # Google ML Kit - Offline Image Labeling (AI görsel tanıma)
+  google_mlkit_image_labeling: ^0.14.1
+
+  # Google ML Kit - Face Detection (Yüz algılama)
+  google_mlkit_face_detection: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
